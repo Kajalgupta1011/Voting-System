@@ -1,0 +1,44 @@
+.logout_btn:active{
+    color: rgb(250, 206, 48);
+}
+
+.logout_btn{
+    cursor: pointer;
+}
+
+.selection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input{
+    width: 100px;
+    height: 2rem;
+}
+
+label{
+    font-size:xx-large;
+}
+
+.voting_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.voting_done{
+    height: 2rem;
+    width: 100px;
+}
+
+.btn_vote{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
